@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background-color: aquamarine;*/
+    background-image: url("Images/pic4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#countEl{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    color: purple;
+}
+.Button{
+    align-items: center;
+    color: chartreuse;
+    border: none;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+#incrementBtn{
+    color: white;
+    background-color:red;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    transition:  0.5s;
+    border-radius: 5px;
+    width: 200px;
+}
+#incrementBtn:hover{
+    transform: translateY(-5px);
+}
+#saveBtn{
+    border: none;
+    background-color:green;
+    border-radius: 5px;
+    font-size: 20px;
+    color:white;
+    transition: 0.5s;
+    cursor: progress;
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+
+}
+
+#saveBtn:hover{
+    transform: translateY(-5px);
+}
+
+#save-el{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
